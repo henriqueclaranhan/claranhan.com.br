@@ -9,7 +9,7 @@ html {
 
 html * {
 	box-sizing: border-box;
-	font-family: "Roboto";
+	font-family: Roboto, sans-serif;
 	color: #333;
 }
 

@@ -10,7 +10,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:locale" content="pt_BR">
 	<meta property="og:url" content="https://claranhan.com.br/">
-	<meta property="og:title" content="Henrique Claranhan — Desenvolvedor Full Stack">
+	<meta property="og:title" content="Henrique Claranhan - Desenvolvedor Full Stack">
 	<meta property="og:description" content="Portfólio de Henrique Claranhan, desenvolvedor full stack. Conheça experiências, formação e tecnologias.">
 	<meta property="og:image" content="https://claranhan.com.br/assets/images/hero.png">
 	<meta property="og:image:secure_url" content="https://claranhan.com.br/assets/images/hero.png">
@@ -19,23 +19,26 @@
 	<meta property="og:image:height" content="587">
 	<meta property="og:image:alt" content="Henrique Claranhan, desenvolvedor full stack, com a frase Construindo ferramentas que funcionam.">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Henrique Claranhan — Desenvolvedor Full Stack">
+	<meta name="twitter:title" content="Henrique Claranhan - Desenvolvedor Full Stack">
 	<meta name="twitter:description" content="Portfólio de Henrique Claranhan, desenvolvedor full stack. Conheça experiências, formação e tecnologias.">
 	<meta name="twitter:image" content="https://claranhan.com.br/assets/images/hero.png">
 	<meta name="twitter:image:alt" content="Henrique Claranhan, desenvolvedor full stack, com a frase Construindo ferramentas que funcionam.">
+	<link rel="preload" href="assets/fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="assets/fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="assets/fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="stylesheet" href="assets/styles/reset.css">
 	<link rel="stylesheet" href="assets/styles/font-face.css">
 	<link rel="stylesheet" href="assets/styles/style.css">
 	<script defer src="assets/scripts/main.js"></script>
 	<link rel="icon" href="assets/icons/hc-favicon.svg" type="image/svg+xml">
-	<title>Henrique Claranhan — Desenvolvedor Full Stack</title>
+	<title>Henrique Claranhan - Desenvolvedor Full Stack</title>
 	<script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
 		"@type": "Person",
 		"name": "Henrique Claranhan",
 		"url": "https://claranhan.com.br/",
-		"image": "https://claranhan.com.br/assets/images/henrique.jpg",
+		"image": "https://claranhan.com.br/assets/images/henrique.webp",
 		"jobTitle": "Desenvolvedor Full Stack",
 		"email": "henrique.claranhan@gmail.com",
 		"sameAs": [
@@ -49,7 +52,7 @@
 <body>
 	<header class="site-header">
 		<div class="container header-inner">
-			<a class="brand" href="#inicio">
+			<a class="brand" href="#inicio" aria-label="Ir para o início - Henrique Claranhan">
 				<img src="assets/icons/hc-header.svg" alt="">
 				<span>Henrique Claranhan</span>
 			</a>
@@ -76,7 +79,8 @@
 					</div>
 				</div>
 				<aside class="profile-card" aria-label="Perfil profissional">
-					<img src="assets/images/henrique.jpg" alt="Henrique Claranhan">
+					<img src="assets/images/henrique.webp" alt="Henrique Claranhan" width="800" height="800"
+						fetchpriority="high" decoding="async">
 				</aside>
 			</div>
 		</section>
@@ -98,14 +102,14 @@
 					<p class="eyebrow">Ferramentas de trabalho</p>
 					<h3>Stack principal</h3>
 					<ul class="skills-list">
-						<li><img src="assets/images/skills/php.svg" alt="">PHP</li>
-						<li><img src="assets/images/skills/cakephp.svg" alt="">CakePHP</li>
-						<li><img src="assets/images/skills/javascript.svg" alt="">JavaScript</li>
-						<li><img src="assets/images/skills/postgresql.svg" alt="">PostgreSQL</li>
-						<li><img src="assets/images/skills/mysql.svg" alt="">MySQL</li>
-						<li><img src="assets/images/skills/docker.svg" alt="">Docker</li>
-						<li><img src="assets/images/skills/git.svg" alt="">Git</li>
-						<li><img src="assets/images/skills/linux.svg" alt="">Linux</li>
+						<li><img src="assets/images/skills/php.svg" loading="lazy" decoding="async" alt="">PHP</li>
+						<li><img src="assets/images/skills/cakephp.svg" loading="lazy" decoding="async" alt="">CakePHP</li>
+						<li><img src="assets/images/skills/javascript.svg" loading="lazy" decoding="async" alt="">JavaScript</li>
+						<li><img src="assets/images/skills/postgresql.svg" loading="lazy" decoding="async" alt="">PostgreSQL</li>
+						<li><img src="assets/images/skills/mysql.svg" loading="lazy" decoding="async" alt="">MySQL</li>
+						<li><img src="assets/images/skills/docker.svg" loading="lazy" decoding="async" alt="">Docker</li>
+						<li><img src="assets/images/skills/git.svg" loading="lazy" decoding="async" alt="">Git</li>
+						<li><img src="assets/images/skills/linux.svg" loading="lazy" decoding="async" alt="">Linux</li>
 					</ul>
 				</div>
 			</div>
@@ -119,12 +123,12 @@
 				</div>
 				<div class="timeline">
 					<article class="experience-item"><a href="https://www.ufms.br/" target="_blank"
-							rel="noopener noreferrer" class="company"><img src="assets/images/experience/ufms.png"
-								alt="">UFMS ↗</a>
+							rel="noopener noreferrer" class="company"><img src="assets/images/experience/ufms.webp" width="28"
+								height="28" loading="lazy" decoding="async" alt="">UFMS ↗</a>
 						<div>
 							<div class="role">
 								<h3>Desenvolvedor Full Stack</h3>
-								<span class="period">FEV 2023 — ATUALMENTE</span>
+								<span class="period">FEV 2023 - ATUALMENTE</span>
 							</div>
 							<ul class="experience-description">
 								<li>Desenvolvimento e evolução de sistemas acadêmicos da UFMS para mais de 20 mil
@@ -133,24 +137,24 @@
 									pós-graduação, com foco em qualidade e na experiência digital dos estudantes.</li>
 							</ul>
 							<ul class="skills-list experience-skills" aria-label="Tecnologias utilizadas">
-								<li><img src="assets/images/skills/php.svg" alt="">PHP</li>
-								<li><img src="assets/images/skills/cakephp.svg" alt="">CakePHP</li>
-								<li><img src="assets/images/skills/postgresql.svg" alt="">PostgreSQL</li>
-								<li><img src="assets/images/skills/docker.svg" alt="">Docker</li>
-								<li><img src="assets/images/skills/flutter.svg" alt="">Flutter</li>
-								<li><img src="assets/images/skills/dart.svg" alt="">Dart</li>
-								<li><img src="assets/images/skills/bootstrap.svg" alt="">Bootstrap</li>
-								<li><img src="assets/images/skills/gitlab.svg" alt="">GitLab</li>
+								<li><img src="assets/images/skills/php.svg" loading="lazy" decoding="async" alt="">PHP</li>
+								<li><img src="assets/images/skills/cakephp.svg" loading="lazy" decoding="async" alt="">CakePHP</li>
+								<li><img src="assets/images/skills/postgresql.svg" loading="lazy" decoding="async" alt="">PostgreSQL</li>
+								<li><img src="assets/images/skills/docker.svg" loading="lazy" decoding="async" alt="">Docker</li>
+								<li><img src="assets/images/skills/flutter.svg" loading="lazy" decoding="async" alt="">Flutter</li>
+								<li><img src="assets/images/skills/dart.svg" loading="lazy" decoding="async" alt="">Dart</li>
+								<li><img src="assets/images/skills/bootstrap.svg" loading="lazy" decoding="async" alt="">Bootstrap</li>
+								<li><img src="assets/images/skills/gitlab.svg" loading="lazy" decoding="async" alt="">GitLab</li>
 							</ul>
 						</div>
 					</article>
 					<article class="experience-item"><a href="https://triagemconsultoria.com.br" target="_blank"
-							rel="noopener noreferrer" class="company"><img src="assets/images/experience/triagem.png"
-								alt="">Triagem ↗</a>
+							rel="noopener noreferrer" class="company"><img src="assets/images/experience/triagem.webp" width="22"
+								height="22" loading="lazy" decoding="async" alt="">Triagem ↗</a>
 						<div>
 							<div class="role">
 								<h3>Desenvolvedor Full Stack</h3>
-								<span class="period">AGO 2022 — JAN 2023</span>
+								<span class="period">AGO 2022 - JAN 2023</span>
 							</div>
 							<ul class="experience-description">
 								<li>Desenvolvimento de painel administrativo interno e API REST para integração com
@@ -158,31 +162,31 @@
 								<li>Desenvolvimento de landing page para venda de franquias da organização.</li>
 							</ul>
 							<ul class="skills-list experience-skills" aria-label="Tecnologias utilizadas">
-								<li><img src="assets/images/skills/php.svg" alt="">PHP</li>
-								<li><img src="assets/images/skills/javascript.svg" alt="">JavaScript</li>
-								<li><img src="assets/images/skills/mysql.svg" alt="">MySQL</li>
-								<li><img src="assets/images/skills/bootstrap.svg" alt="">Bootstrap</li>
-								<li><img src="assets/images/skills/nextjs.svg" alt="">Next.js</li>
-								<li><img src="assets/images/skills/css3.svg" alt="">CSS</li>
+								<li><img src="assets/images/skills/php.svg" loading="lazy" decoding="async" alt="">PHP</li>
+								<li><img src="assets/images/skills/javascript.svg" loading="lazy" decoding="async" alt="">JavaScript</li>
+								<li><img src="assets/images/skills/mysql.svg" loading="lazy" decoding="async" alt="">MySQL</li>
+								<li><img src="assets/images/skills/bootstrap.svg" loading="lazy" decoding="async" alt="">Bootstrap</li>
+								<li><img src="assets/images/skills/nextjs.svg" loading="lazy" decoding="async" alt="">Next.js</li>
+								<li><img src="assets/images/skills/css3.svg" loading="lazy" decoding="async" alt="">CSS</li>
 							</ul>
 						</div>
 					</article>
 					<article class="experience-item"><a href="https://triagemconsultoria.com.br" target="_blank"
-							rel="noopener noreferrer" class="company"><img src="assets/images/experience/triagem.png"
-								alt="">Triagem ↗</a>
+							rel="noopener noreferrer" class="company"><img src="assets/images/experience/triagem.webp" width="22"
+								height="22" loading="lazy" decoding="async" alt="">Triagem ↗</a>
 						<div>
 							<div class="role">
 								<h3>Estagiário de Desenvolvimento Web</h3>
-								<span class="period">MAI 2022 — AGO 2022</span>
+								<span class="period">MAI 2022 - AGO 2022</span>
 							</div>
 							<ul class="experience-description">
 								<li>Participação no desenvolvimento da nova identidade visual do site e de produtos da
 									organização.</li>
 							</ul>
 							<ul class="skills-list experience-skills" aria-label="Tecnologias utilizadas">
-								<li><img src="assets/images/skills/html5.svg" alt="">HTML</li>
-								<li><img src="assets/images/skills/css3.svg" alt="">CSS</li>
-								<li><img src="assets/images/skills/javascript.svg" alt="">JavaScript</li>
+								<li><img src="assets/images/skills/html5.svg" loading="lazy" decoding="async" alt="">HTML</li>
+								<li><img src="assets/images/skills/css3.svg" loading="lazy" decoding="async" alt="">CSS</li>
+								<li><img src="assets/images/skills/javascript.svg" loading="lazy" decoding="async" alt="">JavaScript</li>
 							</ul>
 						</div>
 					</article>
@@ -197,15 +201,17 @@
 					<h2 class="section-title">Base para continuar evoluindo.</h2>
 				</div>
 				<div class="education-grid">
-					<article class="education-card"><img src="assets/images/academic/ufms.png" alt="Logo da UFMS">
+					<article class="education-card"><img src="assets/images/academic/ufms.webp" alt="Logo da UFMS" width="1596"
+							loading="lazy" height="1615" decoding="async">
 						<h3>Bacharelado em Sistemas de Informação</h3>
-						<p class="academic-period">2023 — EM ANDAMENTO</p>
-						<p>Universidade Federal de Mato Grosso do Sul — UFMS</p>
+						<p class="academic-period">2023 - EM ANDAMENTO</p>
+						<p>Universidade Federal de Mato Grosso do Sul - UFMS</p>
 					</article>
-					<article class="education-card"><img src="assets/images/academic/ifms.png" alt="Logo do IFMS">
+					<article class="education-card"><img src="assets/images/academic/ifms.webp" alt="Logo do IFMS" width="1200"
+							loading="lazy" height="1166" decoding="async">
 						<h3>Técnico em Informática</h3>
-						<p class="academic-period">2019 — 2022</p>
-						<p>Instituto Federal de Mato Grosso do Sul — IFMS</p>
+						<p class="academic-period">2019 - 2022</p>
+						<p>Instituto Federal de Mato Grosso do Sul - IFMS</p>
 					</article>
 				</div>
 			</div>
